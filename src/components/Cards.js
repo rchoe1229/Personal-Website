@@ -11,7 +11,7 @@ function Cards() {
     <div className='cards'>
       <div className="cards__container">
         <div className="cards__wrapper">
-          <ul className="cards__items">
+          <div className="cards__items">
             <CardItem
             src={AboutMe}
             text='Who Am I?'
@@ -36,7 +36,7 @@ function Cards() {
             label='Projects'
             path='/projects'
             />
-          </ul>
+          </div>
         </div>
       </div>
     </div>
