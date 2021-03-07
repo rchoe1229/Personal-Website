@@ -1,0 +1,145 @@
+.Tech {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+.TechnologiesKnown {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.Past {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.Halliburton {
+  display: flex;
+  margin: 2em;
+  border-radius: 10px
+}
+
+.HalliburtonLogo {
+  display: flex;
+  align-items: flex-start;
+  width: 420px;
+  height: 250px;
+  margin-left: 40px;
+}
+
+.HalliburtonContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: flex-end;
+  padding: 20px;
+}
+
+.TP {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.Dedicated {
+  padding: 10px;
+}
+
+.Biocide {
+  padding: 10px;
+}
+
+.ATP {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.ATPJob {
+  padding: 10px;
+}
+
+.CSM {
+  display: flex;
+  margin: 2em;
+  border-radius: 10px
+}
+
+.CSMLogo {
+  display: flex;
+  align-items: flex-start;
+  width: 420px;
+  margin-left: 40px;
+}
+
+.CSMContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: flex-end;
+  padding: 20px;
+}
+
+.School {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+
+.generalInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+
+.ExternshipDets {
+  padding: 10px;
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+  .CSM {
+    display: flex;
+  }
+
+  .Halliburton {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .Halliburton {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .HalliburtonLogo {
+    width: 100vw;
+    margin: 0;
+  }
+
+  .HalliburtonContent {
+    margin: 10px;
+  }
+
+  .CSM {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .CSMLogo {
+    width: 100vw;
+    margin: 0;
+  }
+
+  .CSMContent {
+    margin: 10px;
+  }
+}
