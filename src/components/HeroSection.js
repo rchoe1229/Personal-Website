@@ -1,6 +1,5 @@
 import React from 'react'
 import '../App.js'
-// import { Button } from './Button'
 import './HeroSection.css'
 
 function HeroSection() {
@@ -10,15 +9,6 @@ function HeroSection() {
         SOFTWARE ENGINEER 
       </h1>
       <p>Lets Change the World Together</p>
-      {/* <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-        >
-          Contact Me
-        </Button>
-      </div> */}
     </div>
   )
 }
