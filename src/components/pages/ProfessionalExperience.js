@@ -5,7 +5,7 @@ import Halliburton from '../../images/Halliburton.jpg'
 import CSM from "../../images/CSM.jpeg"
 
 const knownTech = (
-  "Ruby · JavaScript · React · Redux · Node.js · Express.js · PostgreSQL · HTML · CSS"
+  "Ruby · JavaScript · React · Python · Redux · Node.js · Express.js · PostgreSQL · HTML · CSS"
 )
 
 export default function ProfessionalExperience() {
