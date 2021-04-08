@@ -12,7 +12,7 @@ function Cards() {
             src={Blog}
             text='Algorithms Series Pt. 1'
             label='First Blog'
-            href="https://chowderchoe.medium.com/algorithms-series-pt-1-648d3597c296"
+            path="https://chowderchoe.medium.com/algorithms-series-pt-1-648d3597c296"
             />
           </div>
         </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../App.css'
+import './BlogsVlogs.css'
 import BlogsVlogsCards from '../BlogsVlogsCards'
 
 export default function BlogsVlogs() {
