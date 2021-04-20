@@ -25,7 +25,8 @@ export default function AboutMe() {
           <h3 className='email-container'>
               Lets change the world together!
             <br/>
-            <p>ryan.choe@outlook.com</p>
+            <a href="mailto:ryan.choe@outlook.com">Contact Me!</a>
+            {/* <p>ryan.choe@outlook.com</p> */}
           </h3>
         </div>
       </div>
