@@ -11,8 +11,8 @@ export default function AboutMe() {
           <h3 className='Content-Title'>Ryan Choe</h3>
           <br/>
           <p className='Content'>
-            I am a full-stack software engineer, currently enrolled in FlatIron School to expand my horizons 
-            and dive into the Tech Industry. I previously worked as a Technical Professional in Production Enhancement
+            I am a full-stack software engineer recently graduated from FlatIron School, currently a Software Engineer 
+            Intern at Flowstate Solutions! I previously worked as a Technical Professional in Production Enhancement
             at Halliburton Energy Services.
           <br/>
           <br/>
