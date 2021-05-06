@@ -1,12 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function BlogVlogCardItem(props) {
+function BlogVlogCardItem(props, url) {
 
   return (
     <>
     <div className="card__item">
-      <Link className="cards__item__link" to={props.path}>
+      <Link className="cards__item__link" href={url} to={props.path}>
         <figure className="cards__item__pic-wrap" data-category={props.label}>
           <img src={props.src} alt="Pretty Img..." className='cards__item__img'/>
         </figure>
